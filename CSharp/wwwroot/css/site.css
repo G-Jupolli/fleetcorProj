@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Calibri, sans-serif;
 }
 
 form {
@@ -9,14 +8,13 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     border: 5px solid black;
-    width: 325px;
-    border-radius: 25px;
+    width: 400px;
+    border-radius: 15px;
     margin: 25px auto 0 auto;
-    padding-top: 40px;
-    padding-bottom: 10px;
-    gap: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    gap: 5px;
 }
 
 .form__item {
@@ -46,7 +44,6 @@ label {
 input {
     width: 100%;
     display: flex;
-    height: 1.5em;
 }
 
 button {
@@ -57,7 +54,7 @@ button {
 }
 
 .hidden {
-    display: none;
+    visibility: hidden;
 }
 
 .validInput {
@@ -68,4 +65,4 @@ button {
     form {
         width: calc(100% - 10px);
     }
-  }
+}

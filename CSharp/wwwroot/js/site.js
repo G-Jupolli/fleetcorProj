@@ -1,0 +1,1 @@
+﻿$("#card__form").validate();

@@ -14,7 +14,36 @@
 
 <body>
     
-    
+    <form id="card__form">
+
+        <div class="form__item">
+            <label for="name">Name:</label>
+            <div>
+                <input id="input__name" type="text" name="name" placeholder="Enter Your Name" required />
+                <p class="hidden">Only include letters and spaces</p>
+            </div>
+        </div>
+
+        <div class="form__item">
+            <label for="email">Email:</label>
+            <div>
+                <input id="input__email" type="email" name="email" placeholder="Enter Your Email" required />
+                <p class="hidden">Invalid email</p>
+            </div>
+        </div>
+
+        <div class="form__item">
+            <label for="card">Card:</label>
+            <div>
+                <input id="input__card" type="text" name="card" placeholder="Enter a Proxy Credit Card Number." required />
+                <p id="card__regexError" class="hidden">Only include numbers and spaces</p>
+                <p id="card__LUHNError" class="hidden">Invalid card number</p>
+            </div>
+        </div>
+
+        <button type="submit">Submit</button>
+
+    </form>
 
     <script type="application/javascript" src="libs/js/jquery-3.6.0.min.js"></script>
     <script type="application/javascript" src="libs/js/script.js"></script>
